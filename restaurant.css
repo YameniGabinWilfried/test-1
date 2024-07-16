@@ -1,0 +1,248 @@
+
+
+    body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+header{
+    box-shadow: 10px 0px 10px #FAD05A ;
+    padding-top: 25px;
+    float: left;
+    background-color: #FAD05A;
+    width:21%;
+    height:670px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 10px;
+    
+}
+.imagerestau{
+    
+    float:left;
+}
+section div{
+    
+    padding-top: 10px;
+}
+section h1{
+    
+
+}
+.image{
+    padding-top: 5px;
+    text-align: center;
+}
+header p{
+    text-align: center;
+}
+header p a{
+    color: white;
+}
+header p a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.pointdevente{
+    padding-left: 30px;
+}
+h1{
+    
+    text-align: center;
+}
+figcaption{
+    text-align: center;
+}
+nav{
+     
+   margin-bottom: px;
+    padding-left: 50px;
+    
+}
+header .trait{
+    margin-left: 10px;
+    width:90%;
+    height: 2px;
+    background-color: grey;
+}
+.sponsor ul{
+    list-style-type: disc;
+    padding-left: 70px;
+   color:WHITE;
+}
+.sponsor ul span{
+    color:black;
+}
+
+nav ul li{
+    margin-bottom: 15px;
+    
+    font-size:17px;
+    font-weight: bolder;
+    text-transform:uppercase;
+    color: white;
+list-style-type: disc;
+text-decoration: underline;
+}
+nav ul a li:hover{
+    color: #f5b402;
+}
+nav ul a{
+    text-decoration: none;
+   
+}
+
+p{
+    margin: 0px;
+}
+section{
+    padding:0px 0px 0px 300px;
+   background-color: #dda408;
+   
+   height: 700px;
+}
+.imager{
+    position: absolute;
+    top:10px;
+    right:0px;
+}
+footer{
+    /*clear: both;*/
+    background-color:rgb(74, 74, 104);
+   height: 150px;
+  
+   /*padding-bottom: 15px;*/
+   padding-top: 100px;
+   
+
+position: relative;
+      
+}
+footer a{
+   float: left;
+   margin-left: 300px;
+   text-decoration: none;
+   color:white;
+  
+   --main:blue;
+}
+footer a:hover{
+  color:var(--main);
+  text-decoration: underline;
+}
+footer p{
+   clear:both;
+   text-align: center;
+   padding-top: 5px;
+}
+section p{
+    
+    line-height: 30px;
+    font-family: Cambria;
+}
+section p::first-letter{
+    font-weight: bold;
+    font-size: 50px;
+}
+figcaption{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: Cambria;
+   
+}
+
+iframe{
+    padding-left: 400px;
+    padding-top: 150px;
+}
+section h1{
+    margin: 0;
+    color: white;
+    padding-bottom: 20px;
+    text-transform:uppercase;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   letter-spacing: 4px;
+   padding-top: 20px;
+}
+.localisation{
+    position: absolute;
+    bottom: 0px;
+    
+    right: 0px;
+    
+}
+.localisation img{
+    padding-left: 70px;
+    
+}
+/*footer .face{
+    background: url("image/facebook.png");
+    display: block;
+    height: 42px;
+    background-repeat: no-repeat;
+
+}
+
+
+footer .twit{
+    background: url("image/Facebook, Twitter and Instagram logo by Drum-magic on @creativemarket.jpeg");
+    display: block;
+   height: 100px;
+    background-repeat: no-repeat;
+   
+}
+/*.div{
+    float:right;
+    width: 50%;
+    height: 700px;
+    background-color: gray;
+    padding-left: 50px;
+}*/
+.c{
+    clear: both;
+}
+.div{
+   
+    
+    width: 30%;
+    margin-top: 10px;
+}
+.di {
+    width:30%;
+    margin-top: 10px;
+  
+}
+main{
+    padding-top: 5px;
+   
+    background-color: #4592AE;
+    display: flex;
+justify-content: space-around;
+height: 500px;
+
+}
+
+footer p{
+   
+}
+.d img{
+    border-radius: 5px;
+}
+
+.figure{
+    border:2px solid black;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+   
+}
+.d:hover{
+  transform: scale(1.3);
+}
+.figcaption{
+  
+   margin-top:10px;
+   background-color: gray;
+   opacity: 0.5;
+}

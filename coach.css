@@ -1,0 +1,182 @@
+
+body{
+    --main:rgb(61, 102, 102);
+    margin:0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    padding: 5px 0px 20px 30px;
+    margin: 0px;
+    float: left;
+    color: rgba(235, 157, 12,0.9);
+   
+    
+}
+
+section{
+    clear: both;
+    color: rgba(245, 159, 0, 0.9);
+  /*  background-color: var(--main);*/
+  
+ 
+    
+}
+nav{
+    float: right;
+    margin:15px 50px 0px 0px;
+    /*color:blue;*/
+    
+}
+nav a{
+    padding-left: 60px;
+    text-decoration: none;
+    color: rgb(207, 138, 8);
+    text-transform: uppercase;
+}
+.blogs{
+    border: 1px solid rgb(207, 138, 8);
+    border-radius: 10px;
+    padding-right: 60px;
+    margin-left:10px;
+   /* color:inherit;*/
+}
+.blogs:hover{
+    background-color: rgb(121, 108, 38);
+    
+}
+.imageducoatch{
+    float: left;
+    position: relative;
+    z-index:3;
+    
+}
+.offre{
+    background-color: rgb(241, 241, 241);
+    opacity: 0.5;
+    position: relative;
+   z-index:2;
+ 
+    
+}
+h2{
+   font-size: 40px;
+
+}
+.rejoindre{
+   
+    border: 1px solid rgb(207, 138, 8);
+    width: 20%;
+    margin-left: 450px;
+    border-radius: 10px;
+    
+    
+}
+.rejoindre a{
+   
+    text-decoration: none;
+    color:rgb(207, 138, 8)
+}
+
+.rejoindre:hover{
+    background-color: rgba(207, 138, 8,0.1);
+}
+footer {
+    padding-top: 50px;
+    clear: both;
+   background-color: gray;
+font-family: Arial, Helvetica, sans-serif;
+   height: 200px;
+ 
+  
+  
+}
+
+footer a{
+  cursor: grabbing;
+    margin-left: 300px;
+    
+}
+
+footer p{
+    
+    text-align: center;
+    
+}
+
+
+
+.para p{
+    padding-left: 480px;
+}
+.para{
+    margin-bottom: 70px;
+}
+@media screen and (max-width:785px){
+    nav {
+        margin-bottom: 30px;
+    }
+        
+}
+@media screen and (max-width:643px){
+ .para p{
+    padding-left: 0px;
+    
+  }
+}
+@media screen and (max-width:565px){
+    .rejoindre{
+        margin-left: 0px;
+    }
+
+ }
+ @media screen and (max-width:499px){
+    nav a{
+        display: block;
+    }
+
+ }
+ @media screen and (max-width:1067px){
+    footer a{
+        margin-left: 200px;
+    }
+
+ }
+ @media screen and (max-width:761px){
+    footer a{
+        margin-left: 150px;
+    }
+
+ }
+ @media screen and (max-width:611px){
+    footer a{
+        margin-left: 110px;
+    }
+
+ }
+ @media screen and (max-width:797px){
+    footer a{
+        margin-left: 80px;
+    }
+
+ }
+ @media screen and (max-width:401px){
+    footer a{
+        margin-left: 50px;
+    }
+    footer{
+       position: relative;
+       left: 70px;
+    }
+    .para{
+       text-align: center;
+    }
+  
+ }
+ @media screen and (max-width:780px){
+    footer a{
+        margin-left: 150px;
+    }
+
+
+ }

@@ -1,0 +1,47 @@
+ /* div {
+	  width:100px;
+	  height:200px;
+	  background-color: blue;
+	  -webkit-transition: 3s background 1s ease;
+  }
+  
+  div:hover{
+	  width: 350px;
+	background-color: green;
+  }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+    position: relative;
+    width: 20%;
+    height: 100px;
+	
+    text-color: aqua;
+  -webkit-animation-name: cycle;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+
+}
+@-webkit-keyframes cycle{
+    0%{ text-color: blue; top: 0px; left:0px;}
+	25%{ background-color: yellow;  top: 10px;left:100px;}  
+	50%{background-color: green; top:80px; left:100px;}
+	75%{background-color: red; top:80px; right:150px;}
+	100%{ background-color: black; top: 0px; left:0px;}
+}
+50%{background-color:green; top:150px; left:100px;}
